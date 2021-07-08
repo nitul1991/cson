@@ -5,7 +5,7 @@
 #include <string>
 #include <vector>
 
-#include <cson/details/traits.h++>
+#include <cson/details/traits.hpp>
 
 #define CSON_LABEL(label) \
 template<typename T> \

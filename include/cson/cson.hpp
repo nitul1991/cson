@@ -5,9 +5,9 @@
 #include <string>
 #include <vector>
 
-#include <cson/details/print.h++>
-#include <cson/details/traits.h++>
-#include <cson/details/label.h++>
+#include <cson/details/print.hpp>
+#include <cson/details/traits.hpp>
+#include <cson/details/label.hpp>
 
 template<typename ... Ts>
 struct cson_t : public Ts ...

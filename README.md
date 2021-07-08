@@ -27,7 +27,7 @@ That's very intuitive.
 ```c++
 
 #include <iostream>
-#include <cson/cson.h++>
+#include <cson/cson.hpp>
 
 //creates few labels first
 CSON_LABEL(name);
